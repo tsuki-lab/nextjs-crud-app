@@ -1,5 +1,6 @@
 import 'ress/dist/ress.min.css'
 import '@/styles/global.css'
+import { SessionProvider } from '@/features/next-auth/SessionProvider'
 
 export default function RootLayout({
   children,
@@ -7,9 +8,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="ja">
-      <body>{children}</body>
-    </html>
+    <SessionProvider>
+      <html lang="ja">
+        <head />
+        <body>{children}</body>
+      </html>
+    </SessionProvider>
   )
 }
 
