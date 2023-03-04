@@ -1,10 +1,10 @@
 {
-  "name": "nextjs-latest-starter",
-  "version": "0.7.0",
+  "name": "nextjs-crud-app",
+  "version": "0.1.0",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:tsuki-lab/nextjs-latest-starter.git"
+    "url": "git+ssh://git@github.com:tsuki-lab/nextjs-crud-app.git"
   },
   "author": "hanetsuki <me@tsuki-lab.net> (https://github.com/tsuki-lab)",
   "license": "MIT",
