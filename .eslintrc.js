@@ -10,6 +10,7 @@ module.exports = {
     'prettier',
   ],
   rules: {
+    'new-cap': ['error', { capIsNew: false }],
     'require-jsdoc': ['off'],
     'import/order': ['error', { alphabetize: { order: 'asc' } }],
     '@next/next/no-img-element': ['off'],
