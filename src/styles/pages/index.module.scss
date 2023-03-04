@@ -20,41 +20,6 @@
   font-size: 4rem;
   line-height: 1.15;
   text-align: center;
-
-  a {
-    color: var(--color-accent);
-    text-decoration: none;
-  }
-}
-
-.message {
-  margin: 4rem 0;
-  font-size: 1.5rem;
-  line-height: 1.5;
-  text-align: center;
-
-  code {
-    padding: 0.75rem;
-    background: var(--color-base);
-    border-radius: 5px;
-    color: var(--color-primary);
-    font-family: Menlo, Monaco, 'Lucida Console', 'Liberation Mono',
-      'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace;
-    font-size: 1.1rem;
-  }
-}
-
-.cards {
-  display: flex;
-  max-width: 800px;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-
-  @include media-query.sp {
-    width: 100%;
-    flex-direction: column;
-  }
 }
 
 .footer {
@@ -71,4 +36,8 @@
     align-items: center;
     justify-content: center;
   }
+}
+
+.accent {
+  color: var(--color-accent);
 }
